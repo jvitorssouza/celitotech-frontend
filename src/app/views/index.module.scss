@@ -1,0 +1,52 @@
+.alignLeft {
+  margin-left: -8px !important;
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.section_switch {
+  margin-top: 8px;
+}
+
+.container {
+  margin: 0;
+  padding: 16px 10px;
+  box-sizing: border-box;
+}
+
+.containerHeader {
+  gap: 10px;
+  display: flex;
+}
+
+.dialogSurface {
+  width: 100vw !important;
+  height: 90vh !important;
+}
+
+.sections_main_container {
+  display: flex;
+}
+
+.sections_sidebar {
+  width: 30%;
+  margin-right: 10px;
+  min-height: calc(100vh - 200px);
+  // border: 1px solid #f6f6f6;
+}
+
+.sections_wrapper {
+  width: 70%;
+  animation: fade-in 3s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}

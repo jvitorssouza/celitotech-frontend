@@ -1,1 +1,93 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 300 !important;
+  font-family: Consolas !important;
+  box-sizing: border-box;
+}
+
+.grid_container {
+  gap: 6px;
+  width: 100%;
+  display: flex;
+
+  .menu_trigger {
+    padding: 6px 12px;
+  }
+}
+
+.grid_col_small {
+  width: 33% !important;
+}
+
+.grid_col_medium {
+  width: 50% !important;
+}
+
+.grid_col_large {
+  width: 66% !important;
+}
+
+.grid_col_xlarge {
+  width: 100% !important;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+
+  .grid_container,
+  .grid_container_4_columns {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  // Adjust sizes for smaller screens
+  .grid_col_small {
+    width: 100% !important;
+  }
+
+  .grid_col_medium {
+    width: 100% !important;
+  }
+
+  .grid_col_large,
+  .grid_col_xlarge {
+    width: 100% !important;
+  }
+}
+
+// Menu Position
+.menu_trigger {
+  margin-left: 85% !important;
+  transform: translateY(-100%) !important;
+}
+
+// Responsive adjustments
+@media (max-width: 600px) {
+  .menu_trigger {
+    margin-left: 92% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu_trigger {
+    margin-left: 90% !important;
+  }
+}
+
+// Global Styles
+.m-16 {
+  margin-top: 16px;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.max-width-full-size {
+  max-width: 100% !important;
+}
+
+.combobox_show_menu .fui-Field__validationMessage {
+  margin-top: -32px !important;
+}

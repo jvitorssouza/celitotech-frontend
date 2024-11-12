@@ -1,0 +1,27 @@
+.mt16 {
+  margin-top: 16px !important;
+}
+
+.row {
+  display: flex;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.accordion {
+  margin-top: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.accordionHeader {
+  padding: 10px;
+  background: #f6f6f6 !important;
+}
+
+.accordionPanel {
+  padding: 16px 0px;
+  overflow-x: hidden;
+}

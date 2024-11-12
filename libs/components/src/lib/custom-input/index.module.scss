@@ -1,0 +1,22 @@
+.inputContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerHeader {
+  display: flex;
+}
+
+.field {
+  font-weight: 600;
+
+  input,
+  input::placeholder {
+    color: #115ea3;
+  }
+
+  input::placeholder {
+    font-weight: 300;
+  }
+}
